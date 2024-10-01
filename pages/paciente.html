@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/componentes.css" />
     <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/botoes.css" />
   </head>
 
   <body>
@@ -24,16 +25,24 @@
           <div class="layout-formulario">
             <div>
               <label for="Nome" class="label">Nome: </label>
-              <input type="text" class="input-informacoes" placeholder="Digite seu nome" required />
+              <input
+                type="text"
+                class="input-informacoes"
+                placeholder="Digite seu nome"
+                required
+              />
             </div>
             <div>
-              <label for="DataNascimento" class="label">Data de Nascimento: </label>
+              <label for="DataNascimento" class="label"
+                >Data de Nascimento:
+              </label>
               <input type="date" class="input-informacoes" required />
             </div>
             <div>
               <label for="Cpf" class="label">CPF: </label>
               <input
-                type="text" class="input-informacoes"
+                type="text"
+                class="input-informacoes"
                 placeholder="123.456.789-01"
                 maxlength="11"
                 required
@@ -41,12 +50,18 @@
             </div>
             <div>
               <label for="Email" class="label">Email: </label>
-              <input type="text" class="input-informacoes" placeholder="Digite seu email" required />
+              <input
+                type="text"
+                class="input-informacoes"
+                placeholder="Digite seu email"
+                required
+              />
             </div>
             <div>
               <label for="Telefone" class="label">Telefone: </label>
               <input
-                type="tel" class="input-informacoes"
+                type="tel"
+                class="input-informacoes"
                 placeholder="(99)99999-9999"
                 maxlength="11"
                 required
@@ -57,19 +72,36 @@
               <input type="text" class="input-informacoes" />
             </div>
             <div>
-              <label for="MotivoProcura" class="label">Motivo da procura: </label>
-              <textarea name="Motivo" class="input-informacoes" id="form-control" required></textarea>
+              <label for="MotivoProcura" class="label"
+                >Motivo da procura:
+              </label>
+              <textarea
+                name="Motivo"
+                class="input-informacoes"
+                id="form-control"
+                required
+              ></textarea>
             </div>
             <div>
               <div>
                 <label for="Ajuda" class="label"
                   >Precisa de algum tipo de tratamento especial (deficientes):
-                  <label class="label">
-                    <input type="radio" class="input-informacoes" name="deficiente" value="sim" />
+                  <label class="label label-tratamento">
+                    <input
+                      type="radio"
+                      class="input-informacoes"
+                      name="deficiente"
+                      value="sim"
+                    />
                     Sim
                   </label>
-                  <label class="label">
-                    <input type="radio" class="input-informacoes" name="deficiente" value="nao" />
+                  <label class="label label-tratamento">
+                    <input
+                      type="radio"
+                      class="input-informacoes"
+                      name="deficiente"
+                      value="nao"
+                    />
                     Não
                   </label>
                 </label>
@@ -79,7 +111,11 @@
               <label for="Preferencia" class="label"
                 >Alguma preferência de profissional:
               </label>
-              <select name="profissionais" class="input-informacoes" id="form-control">
+              <select
+                name="profissionais"
+                class="input-informacoes"
+                id="form-control"
+              >
                 <option value="1">Sem preferência</option>
                 <option value="2">Juliana</option>
                 <option value="3">Fabíola</option>
@@ -87,12 +123,12 @@
                 <option value="5">Regina</option>
                 <option value="6">Teresa</option>
               </select>
-              <a href="http://127.0.0.1:3000/index.html"
-                >Conheça nossos profissionais</a
-              >
             </div>
+            <a href="/pages/contact.html" style="color: rgb(218, 163, 255);">Conheça nossos profissionais</a>
             <div>
-              <label for="ComoConheceu" class="label">Como nos conheceu: </label>
+              <label for="ComoConheceu" class="label"
+                >Como nos conheceu:
+              </label>
               <select name="Opcoes" class="input-informacoes" id="form-control">
                 <option value="0">Escolha uma opção</option>
                 <option value="1">Indicação de amigos/familiares</option>
@@ -111,7 +147,10 @@
               >
             </div>
             <div>
-              <button class="botao botao-formulario input-informacoes" type="submit">
+              <button
+                class="botao botao-formulario input-informacoes"
+                type="submit"
+              >
                 Enviar
               </button>
             </div>
@@ -126,7 +165,7 @@
         <a>
           Espero que tenha conseguido entrar em contato com o profissional.
         </a>
-        <a class="botao botao-inicial" href="http://127.0.0.1:3000/index.html"
+        <a class="botao botao-inicial" href="/index.html"
           >Volte a página inicial</a
         >
       </div>
