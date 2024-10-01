@@ -1,76 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quem somos</title>
-    <link rel="stylesheet" href="/TrabalhoFinalFront/css/estiloAbout.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/componentes.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
   </head>
   <body>
-    <header>
-      <h1>Quem Somos</h1>
-      <h2>Bem-vindo à Logos Psicologia!</h2>
-      <img src="/img/WhatsApp Image 2024-09-27 at 16.06.16.png" alt="Logo" />
+    <header class="layout-cabecalho">
+      <div class="container">
+        <h1>Quem Somos</h1>
+        <h2>Bem-vindo à Logos Psicologia!</h2>
+        <img
+          src="/img/LogoFundo.png"
+          class="image imagem--cabecalho"
+          alt="Logo"
+        />
+      </div>
     </header>
 
-    <main>
-      <section>
-        <p>
-          Na Logos, acreditamos que a saúde mental é um pilar fundamental para o
-          bem-estar e o desenvolvimento pessoal. Nossa clínica foi criada por um
-          grupo de psicólogos apaixonados pela mente humana e pelo processo de
-          autodescoberta. Com anos de experiência em diversas áreas da
-          psicologia, nossa equipe se uniu para oferecer um espaço acolhedor e
-          seguro, onde cada indivíduo pode explorar suas emoções, enfrentar
-          desafios e descobrir seu verdadeiro potencial.
-        </p>
+    <main class="layout-principal">
+      <div class="container">
+        <div class="about">
+          <section class="logos__explicacao">
+            <p>
+              Na Logos, acreditamos que a saúde mental é um pilar fundamental
+              para o bem-estar e o desenvolvimento pessoal. Nossa clínica foi
+              criada por um grupo de psicólogos apaixonados pela mente humana e
+              pelo processo de autodescoberta. Com anos de experiência em
+              diversas áreas da psicologia, nossa equipe se uniu para oferecer
+              um espaço acolhedor e seguro, onde cada indivíduo pode explorar
+              suas emoções, enfrentar desafios e descobrir seu verdadeiro
+              potencial.
+            </p>
 
-        <p>
-          Entendemos que cada pessoa é única e, por isso, trabalhamos com uma
-          variedade de abordagens terapêuticas, incluindo Terapia
-          Cognitivo-Comportamental, Psicologia Positiva e Terapia Humanista.
-          Nossos profissionais estão sempre prontos para personalizar o
-          tratamento de acordo com as necessidades e objetivos de cada paciente.
-        </p>
+            <p>
+              Entendemos que cada pessoa é única e, por isso, trabalhamos com
+              uma variedade de abordagens terapêuticas, incluindo Terapia
+              Cognitivo-Comportamental, Psicologia Positiva e Terapia Humanista.
+              Nossos profissionais estão sempre prontos para personalizar o
+              tratamento de acordo com as necessidades e objetivos de cada
+              paciente.
+            </p>
 
-        <img src="/img/quemsomos.jpg" class="image" alt="Quem somos" />
-      </section>
-      <section>
-        <h1>Nossos Serviços</h1>
-        <h2>
-          Oferecemos uma gama de serviços que incluem, mas não se limitam a:
-        </h2>
-        <ul>
-          <li>
-            Terapia Individual: Para adultos, adolescentes e crianças, com foco
-            em questões como ansiedade, depressão, estresse e autoconhecimento
-          </li>
-          <li>
-            Terapia de Casal: Apoio para casais que desejam melhorar a
-            comunicação, resolver conflitos e fortalecer a relação.
-          </li>
-          <li>
-            Psicoterapia em Grupo: Espaços de troca e apoio mútuo, onde os
-            participantes podem compartilhar experiências e aprender juntos.
-          </li>
-          <li>
-            Aconselhamento e Orientação Profissional: Para aqueles que buscam
-            clareza em suas escolhas profissionais e desenvolvimento de
-            habilidades.
-          </li>
-        </ul>
+            <img src="/img/quemsomos.jpg" class="image" alt="Quem somos" />
+          </section>
+          <section class="nossos__servicos">
+            <h1>Nossos Serviços</h1>
+            <h2>
+              Oferecemos uma gama de serviços que incluem, mas não se limitam a:
+            </h2>
+            <ul>
+              <li>
+                Terapia Individual: Para adultos, adolescentes e crianças, com
+                foco em questões como ansiedade, depressão, estresse e
+                autoconhecimento
+              </li>
+              <li>
+                Terapia de Casal: Apoio para casais que desejam melhorar a
+                comunicação, resolver conflitos e fortalecer a relação.
+              </li>
+              <li>
+                Psicoterapia em Grupo: Espaços de troca e apoio mútuo, onde os
+                participantes podem compartilhar experiências e aprender juntos.
+              </li>
+              <li>
+                Aconselhamento e Orientação Profissional: Para aqueles que
+                buscam clareza em suas escolhas profissionais e desenvolvimento
+                de habilidades.
+              </li>
+            </ul>
 
-        <img src="/img/casal.jpg" class="image" alt="Terapia de casal" />
-      </section>
+            <img src="/img/casal.jpg" class="image" alt="Terapia de casal" />
+          </section>
 
-      <button class="btn">Seja nosso paciente</button>
+          <button class="btn botao botao-paciente">Seja nosso paciente</button>
+        </div>
+      </div>
+    </main>
 
-      <footer>
+    <footer class="layout-rodape">
+      <div class="container">
         <p>&copy; 2024 Clínica Logos</p>
-        <a class="botao" href="http://127.0.0.1:3000/index.html"
+        <a class="botao botao-inicial" href="http://127.0.0.1:3000/index.html"
           >Volte a página inicial</a
         >
-      </footer>
-    </main>
+      </div>
+    </footer>
   </body>
 </html>

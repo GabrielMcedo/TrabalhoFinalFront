@@ -4,44 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Logos</title>
-    <link rel="stylesheet" href="/TrabalhoFinalFront/css/estilo.css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-       
-      #carouselPsychologists {
-          margin-top: 50px;
-          max-width: 500px; 
-          margin: 50px auto;
-          max-height: 25%; 
-   
-         
-      }
-      .carousel-item img {
-          max-height: 250px; 
-          object-fit: cover; 
-      }
-      .h5-paragrafo{
-          color: rgb(0, 0, 0);
-          background-color: rgb(18, 162, 187);
-       
-          text-shadow: 0 1px 0 #ccc;
-          
-    
-         
-}
-          
-      
-  </style>
-
-
-
+    <link rel="stylesheet" href="/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/componentes.css" />
   </head>
   <body>
-    <header>
-          </div>
-      <div>
-        <img src="/img/WhatsApp Image 2024-09-27 at 16.06.16.png" alt="" />
+    <header class="layout-cabecalho">
+      <div class="container">
+        <img src="/img/LogoFundo.png" alt="Logos" />
       </div>
       <h1>Clínica Logos</h1>
       <nav class="navbar navbar-expand-lg custom-navbar">
@@ -72,94 +44,173 @@
       </nav>
     </header>
 
-    <section>
-      <p>Bem-vindo ao nosso espaço de psicologia, onde acreditamos que o cuidado com a saúde mental é essencial para o equilíbrio emocional, autoconhecimento e uma vida plena. Aqui, oferecemos apoio especializado para que você possa enfrentar desafios, superar obstáculos e promover seu bem-estar em todas as áreas da vida.</p>
-      <section style="position: relative;">
-        <img src="/img/PPGP-Psicologia-800x450-Foto-Getty-Images.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;">
-        <div style="position: absolute; right: 500px; top: 20px; color: white;">
-          <p>
-            <li>A felicidade é uma escolha que podemos cultivar todos os dias.</li>
-            <li>Cultive o positivo e o positivo florescerá em você.</li>
-            <li>A gratidão é a chave para um coração feliz.</li>
-            <li>Aprenda a apreciar as pequenas alegrias da vida.</li>
-          </p>
-        </div>
+    <main class="layout-principal">
+    <section class="introducao">
+      <p>
+        Bem-vindo ao nosso espaço de psicologia, onde acreditamos que o cuidado
+        com a saúde mental é essencial para o equilíbrio emocional,
+        autoconhecimento e uma vida plena. Aqui, oferecemos apoio especializado
+        para que você possa enfrentar desafios, superar obstáculos e promover
+        seu bem-estar em todas as áreas da vida.
+      </p>
     </section>
 
-    <section style="height: 700px">
+    <section class="principios">
+      <img
+        src="/img/LampadaAzul.jpg"
+        class="imagem__fundo"
+        alt="Imagem Fundo"
+        />
+      <div class="principios__lista">
+        <p>
+          <li>
+            A felicidade é uma escolha que podemos cultivar todos os dias.
+          </li>
+          <li>Cultive o positivo e o positivo florescerá em você.</li>
+          <li>A gratidão é a chave para um coração feliz.</li>
+          <li>Aprenda a apreciar as pequenas alegrias da vida.</li>
+        </p>
+      </div>
+    </section>
+
+    <section class="profissionais">
       <h1>Conheça Nossos Profissionais</h1>
-      <h2>Contamos com psicólogos qualificados, comprometidos em oferecer um atendimento humanizado e personalizado para cuidar da sua saúde mental. Conheça nossa equipe e encontre o apoio que você precisa.</h2>
-      <div id="carouselPsychologists" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <h2>
+        Contamos com psicólogos qualificados, comprometidos em oferecer um
+        atendimento humanizado e personalizado para cuidar da sua saúde mental.
+        Conheça nossa equipe e encontre o apoio que você precisa.
+      </h2>
+      <div
+        id="carouselPsychologists"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="2000"
+      >
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/TrabalhoFinalFront/img/psicologa9.jpg" class="d-block w-100" alt="Psicólogo 1 - Especialista em terapia cognitiva">
-                <div class="carousel-caption d-none d-md-block"  >
-                    <h5 class="h5-paragrafo">Juliana</h5>
-                    <p class="h5-paragrafo">Terapia Comportamental</p>
-                </div>
+          <div class="carousel-item active">
+            <img
+              src="/img/psicologa.jpg"
+              class="d-block w-100"
+              alt="Psicólogo 1 - Especialista em terapia cognitiva"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5-paragrafo">Juliana</h5>
+              <p class="h5-paragrafo">Terapia Comportamental</p>
             </div>
-            <div class="carousel-item">
-                <img src="/TrabalhoFinalFront/img/psicologateresa.jpg" class="d-block w-100" alt="Psicólogo 2 - Especialista em terapia familiar">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="h5-paragrafo" >Fabíola</h5>
-                    <p class="h5-paragrafo">Psicoterapia em grupo</p>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/psicologateresa.jpg"
+              class="d-block w-100"
+              alt="Psicólogo 2 - Especialista em terapia familiar"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5-paragrafo">Fabíola</h5>
+              <p class="h5-paragrafo">Psicoterapia em grupo</p>
             </div>
-            <div class="carousel-item">
-                <img src="/TrabalhoFinalFront/img/psicologo8.2.jpg" class="d-block w-100" alt="Psicólogo 3 - Especialista em transtornos de ansiedade">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="h5-paragrafo">Gabriel</h5>
-                    <p class="h5-paragrafo">Psicanalista</p>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/psicologo.jpg"
+              class="d-block w-100"
+              alt="Psicólogo 3 - Especialista em transtornos de ansiedade"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5-paragrafo">Gabriel</h5>
+              <p class="h5-paragrafo">Psicanalista</p>
             </div>
-            <div class="carousel-item">
-                <img src="/TrabalhoFinalFront/img/psicologo7.jpg" class="d-block w-100" alt="Psicólogo 4 - Especialista em desenvolvimento pessoal">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="h5-paragrafo">Regina</h5>
-                    <p class="h5-paragrafo">Existencial</p>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/psicologo1.jpg"
+              class="d-block w-100"
+              alt="Psicólogo 4 - Especialista em desenvolvimento pessoal"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5-paragrafo">Regina</h5>
+              <p class="h5-paragrafo">Existencial</p>
             </div>
-            <div class="carousel-item">
-                <img src="/TrabalhoFinalFront/img/psicologa13.jpg" class="d-block w-100" alt="Psicólogo 5 - Especialista em terapia infantil">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="h5-paragrafo">Teresa</h5>
-                    <p class="h5-paragrafo">Terapia Familiar</p>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/psicologa1.jpg"
+              class="d-block w-100"
+              alt="Psicólogo 5 - Especialista em terapia infantil"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5-paragrafo">Teresa</h5>
+              <p class="h5-paragrafo">Terapia Familiar</p>
             </div>
+          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselPsychologists" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
+        <a
+          class="carousel-control-prev"
+          href="#carouselPsychologists"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#carouselPsychologists" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
+        <a
+          class="carousel-control-next"
+          href="#carouselPsychologists"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
         </a>
-    </div>
+      </div>
     </section>
 
-    <section>
-      <h1  id="videos-Text">Conheça nosso trabalho</h1>
-      <h2>Nosso compromisso é oferecer um atendimento psicológico de qualidade, focado no bem-estar e desenvolvimento pessoal de cada paciente. Trabalhamos com diversas abordagens terapêuticas, sempre adaptadas às suas necessidades, para promover autoconhecimento, equilíbrio emocional e uma vida mais saudável.</h2>
-      <img src="/img/o-que-um-psicologo-nao-pode-fazer.jpg" alt="">
-      <h3>Oferecemos atendimento psicológico focado no seu bem-estar. Acesse nosso canal no YouTube para conteúdos exclusivos sobre saúde mental. <a href="https://www.youtube.com/@PsicologiaLogos" class="btn">Confira aqui</a></h3>
+    <section class="nosso-trabalho">
+      <h1>Conheça nosso trabalho</h1>
+      <h2>
+        Nosso compromisso é oferecer um atendimento psicológico de qualidade,
+        focado no bem-estar e desenvolvimento pessoal de cada paciente.
+        Trabalhamos com diversas abordagens terapêuticas, sempre adaptadas às
+        suas necessidades, para promover autoconhecimento, equilíbrio emocional
+        e uma vida mais saudável.
+      </h2>
+      <img src="/img/anotacao.jpg" alt="Psicologo anotando as queixas da paciente" />
+      <h3>
+        Oferecemos atendimento psicológico focado no seu bem-estar. Acesse nosso
+        canal no YouTube para conteúdos exclusivos sobre saúde mental.
+        <a href="https://www.youtube.com/@PsicologiaLogos" class="btn botao botao-youtube"
+          >Confira aqui</a
+        >
+      </h3>
     </section>
 
-    <section>
+    <section class="trabalhe-conosco">
       <h1>Trabalhe Conosco</h1>
-      <h2>Venha fazer parte da nossa equipe! Buscamos profissionais apaixonados pela saúde mental e comprometidos com o cuidado humanizado. Se você é psicólogo ou atua na área da saúde mental, junte-se a nós para promover bem-estar e qualidade de vida aos nossos pacientes.</h2>
-        <img src="/img/importancia-profissao-psicologo-empresas.jpg" alt="">
+      <h2>
+        Venha fazer parte da nossa equipe! Buscamos profissionais apaixonados
+        pela saúde mental e comprometidos com o cuidado humanizado. Se você é
+        psicólogo ou atua na área da saúde mental, junte-se a nós para promover
+        bem-estar e qualidade de vida aos nossos pacientes.
+      </h2>
+      <img src="/img/PsicologaAtendendo.jpg" alt="Psicologa Atendendo" />
       <h1>Seja nosso Paciente</h1>
-      <h2>Estamos aqui para apoiar você em sua jornada de autoconhecimento e bem-estar. Para iniciar seu atendimento, convidamos você a preencher o nosso formulário de contato. Nossa equipe analisará sua solicitação e você receberá um retorno em até 2 a 3 dias úteis. Estamos ansiosos para ajudá-lo!</h2>
+      <h2>
+        Estamos aqui para apoiar você em sua jornada de autoconhecimento e
+        bem-estar. Para iniciar seu atendimento, convidamos você a preencher o
+        nosso formulário de contato. Nossa equipe analisará sua solicitação e
+        você receberá um retorno em até 2 a 3 dias úteis. Estamos ansiosos para
+        ajudá-lo!
+      </h2>
     </section>
-    <footer>
-      <p>&copy; 2024 Clinica Logos</p>
-    </footer>
+  </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
+    <footer class="layout-rodape">
+      <div class="container">
+        <p>&copy; 2024 Clinica Logos</p>
+      </div>
+    </footer>
   </body>
 </html>
