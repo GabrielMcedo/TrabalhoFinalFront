@@ -105,20 +105,30 @@
   min-height: 100px;
 }
 
+/* .Descricao{
+    text-align: center;
+} */
+
 .checkbox-container {
-  text-align: center; /* Centraliza o conteúdo dentro da div */
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* text-align: center; Centraliza o conteúdo dentro da div */
   margin-bottom: 15px; /* Espaçamento abaixo */
+  margin-top: 5px;
 }
 
-.checkbox-container label {
-  display: inline-block; /* Mantém o label ao lado do checkbox */
-  margin-left: -360px; /* Espaçamento entre o checkbox e o texto */
+/* .checkbox-container label {
+  display: inline-block;  Mantém o label ao lado do checkbox 
+  margin-left: -360px; Espaçamento entre o checkbox e o texto 
   margin-right: 420px;
 }
 
 .checkbox-container input[type="checkbox"] {
-  display: inline-block; /* Garante que o checkbox fique alinhado em linha com o texto */
-}
+  display: inline-block;  Garante que o checkbox fique alinhado em linha com o texto 
+} */
 
 /*-Barra de Navegação*/
 
