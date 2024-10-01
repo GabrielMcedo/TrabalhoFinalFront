@@ -1,0 +1,232 @@
+/*-About-*/
+
+.logos__esplicacao {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+}
+
+.nossos__servicos h1 {
+  background-color: rgb(18, 162, 187);
+  color: white;
+  padding: 10px 0;
+}
+
+.nossos__servicos h2 {
+  color: rgb(18, 162, 187);
+}
+
+.nossos__servicos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.image {
+  width: 500%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10%;
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagem--cabecalho {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/*-Contact-*/
+
+.psicologo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.psicologo2 {
+  background-color: rgb(39, 15, 94);
+  color: white;
+}
+
+.psicologo4 {
+  background-color: rgb(39, 15, 94);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.psicologo img {
+  height: 7%;
+  width: 7%;
+  background-image: none;
+}
+
+.psicologo h2,
+.email,
+.numero {
+  font-size: 1.5rem;
+}
+
+/*-Paciente(Formulario)-*/
+
+.formulario {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  width: auto;
+  text-align: center;
+}
+.label-tratamento {
+  margin-right: 50%;
+  margin-left: 46%;
+}
+
+.input-informacoes {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-informacoes textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.checkbox-container {
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+  margin-bottom: 15px; /* Espaçamento abaixo */
+}
+
+.checkbox-container label {
+  display: inline-block; /* Mantém o label ao lado do checkbox */
+  margin-left: -430px; /* Espaçamento entre o checkbox e o texto */
+  margin-right: 400px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  display: inline-block; /* Garante que o checkbox fique alinhado em linha com o texto */
+}
+
+/*-Barra de Navegação*/
+
+.custom-navbar .nav-link {
+  color: white;
+}
+
+.custom-navbar .nav-link:hover {
+  color: gray;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-decoration: none;
+}
+
+.custom-navbar .navbar-brand {
+  color: white;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: gray;
+}
+
+/*-*/
+
+.layout-cabecalho img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.introducao {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+}
+
+.principios {
+  position: relative;
+}
+
+.imagem__fundo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.principios__lista {
+  position: absolute;
+  right: 500px;
+  top: 20px;
+  color: white;
+}
+
+.profissionais {
+}
+
+.nosso-trabalho {
+}
+
+.trabalhe-conosco {
+}
+
+/*-Carrosel-*/
+
+#carouselPsychologists {
+  margin-top: 50px;
+  max-width: 500px;
+  margin: 50px auto;
+  max-height: 25%;
+}
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+.h5-paragrafo {
+  color: rgb(0, 0, 0);
+  background-color: rgb(18, 162, 187);
+  text-shadow: 0 1px 0 #ccc;
+}
+
+/*-*/
+
+#videos-Text {
+}
+
+.layout-principal h1 {
+  background-color: rgb(18, 162, 187);
+  color: white;
+}
+
+section:nth-of-type(2) img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px black;
+}
