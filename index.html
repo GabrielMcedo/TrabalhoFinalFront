@@ -4,7 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Logos</title>
-    <link rel="stylesheet" href="/css/estilo.css" />
+    <link rel="stylesheet" href="/TrabalhoFinalFront/css/estilo.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+       
+      #carouselPsychologists {
+          margin-top: 50px;
+          max-width: 500px; 
+          margin: 50px auto;
+          max-height: 25%; 
+         
+      }
+      .carousel-item img {
+          height: 300px; 
+          object-fit: cover; 
+      }
+      .h5-paragrafo{
+          color: rgb(0, 0, 0);
+          background-color: rgb(18, 162, 187);
+       
+          text-shadow: 0 1px 0 #ccc;
+          
+    
+         
+}
+          
+      
+  </style>
+
+
+
   </head>
   <body>
     <header>
@@ -56,9 +86,55 @@
     </section>
 
     <section>
-      <h1>Conheça Nossos Proficionais</h1>
+      <h1>Conheça Nossos Profissionais</h1>
       <h2>Contamos com psicólogos qualificados, comprometidos em oferecer um atendimento humanizado e personalizado para cuidar da sua saúde mental. Conheça nossa equipe e encontre o apoio que você precisa.</h2>
-      <img src="/img/Young-Man-PNG-Image-Background.png" width="100" alt="" />
+      <div id="carouselPsychologists" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/TrabalhoFinalFront/img/psicologa9.jpg" class="d-block w-100" alt="Psicólogo 1 - Especialista em terapia cognitiva">
+                <div class="carousel-caption d-none d-md-block"  >
+                    <h5 class="h5-paragrafo">Juliana</h5>
+                    <p class="h5-paragrafo">Terapia Comportamental</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/TrabalhoFinalFront/img/psicologateresa.jpg" class="d-block w-100" alt="Psicólogo 2 - Especialista em terapia familiar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-paragrafo" >Fabíola</h5>
+                    <p class="h5-paragrafo">Psicoterapia em grupo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/TrabalhoFinalFront/img/psicologo8.2.jpg" class="d-block w-100" alt="Psicólogo 3 - Especialista em transtornos de ansiedade">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-paragrafo">Gabriel</h5>
+                    <p class="h5-paragrafo">Psicanalista</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/TrabalhoFinalFront/img/psicologo7.jpg" class="d-block w-100" alt="Psicólogo 4 - Especialista em desenvolvimento pessoal">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-paragrafo">Regina</h5>
+                    <p class="h5-paragrafo">Existencial</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/TrabalhoFinalFront/img/psicologa13.jpg" class="d-block w-100" alt="Psicólogo 5 - Especialista em terapia infantil">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5-paragrafo">Teresa</h5>
+                    <p class="h5-paragrafo">Terapia Familiar</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselPsychologists" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselPsychologists" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
     </section>
 
     <section>
@@ -78,5 +154,11 @@
     <footer>
       <p>&copy; 2024 Clinica Logos</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
   </body>
 </html>
