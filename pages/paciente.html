@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seja nosso Paciente</title>
+    <link rel="stylesheet" href="/css/paciente.css">
 </head>
+
 <body>
   <h2>Seja nosso paciente</h2>
+  <img src="/img/WhatsApp Image 2024-09-27 at 16.06.16.png" alt="">
     <p>Preencha o formulário abaixo e entraremos em contato</p>
     <form>
       <div>
@@ -38,25 +41,28 @@
         <textarea name="Motivo" id="form-control"></textarea>
       </div>
       <div>
-        <label for="Ajuda"
-          >Precisa de algum tipo de tratamento especial (deficientes):
-        </label>
-        <input type="radio" name="deficiente" />
-        <label for="deficiente">Sim</label>
-        <input type="radio" name="deficiente" />
-        <label for="deficiente">Não</label>
-      </div>
+        <div>
+          <label for="Ajuda">Precisa de algum tipo de tratamento especial (deficientes):
+          <label>
+            <input type="radio" name="deficiente" value="sim" />
+            Sim
+          </label>
+          <label>
+            <input type="radio" name="deficiente" value="nao" />
+            Não
+          </label>
+        </div>
       <div>
         <label for="Preferencia">Alguma preferencia de profissional: </label>
         <select name="profissionais" id="form-control">
           <option value="1">Sem preferencia</option>
-          <option value="2">Psicologo 1</option>
-          <option value="3">Psicologo 2</option>
-          <option value="4">Psicologo 3</option>
-          <option value="5">Psicologo 4</option>
-          <option value="6">Psicologo 5</option>
+          <option value="2">Juliana</option>
+          <option value="3">Fabíula</option>
+          <option value="4">Gabriel</option>
+          <option value="5">Regina</option>
+          <option value="6">Teresa</option>
         </select>
-        <a href="#conhecanossosprofissionas">Conheça nossos profissionais</a>
+        <a href="http://127.0.0.1:3000/index.html">Conheça nossos profissionais</a>
       </div>
       <div>
         <label for="ComoConheceu">Como nos conheceu: </label>
@@ -70,12 +76,9 @@
           <option value="6">Outros</option>
         </select>
       </div>
-      <div>
+      <div class="checkbox-container">
         <input type="checkbox" required />
-        <label for="Descricao"
-          >Entendo que meus dados possam ser usados para fins de contato com os
-          profissionais.
-        </label>
+        <label for="Descricao">Entendo que meus dados possam ser usados para fins de contato com os profissionais.</label>
       </div>
       <div>
         <button type="submit">Enviar</button>
