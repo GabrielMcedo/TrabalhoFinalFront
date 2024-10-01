@@ -89,8 +89,8 @@
   text-align: center;
 }
 .label-tratamento {
-  margin-right: 50%;
-  margin-left: 46%;
+  margin-right: 48%;
+  margin-left: 44%;
 }
 
 .input-informacoes {
@@ -112,8 +112,8 @@
 
 .checkbox-container label {
   display: inline-block; /* Mantém o label ao lado do checkbox */
-  margin-left: -430px; /* Espaçamento entre o checkbox e o texto */
-  margin-right: 400px;
+  margin-left: -360px; /* Espaçamento entre o checkbox e o texto */
+  margin-right: 420px;
 }
 
 .checkbox-container input[type="checkbox"] {
