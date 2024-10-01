@@ -1,3 +1,8 @@
+
+body{
+  background-image: linear-gradient(to bottom right, lightblue 0%, cornflowerblue);
+}
+
 /*-About-*/
 
 .logos__esplicacao {
@@ -28,6 +33,11 @@
   border-radius: 10%;
   margin: 20px 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
 }
 
 .imagem--cabecalho {
