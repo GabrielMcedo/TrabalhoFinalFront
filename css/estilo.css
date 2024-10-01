@@ -1,20 +1,16 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
   height: 100vh;
   font-family: "Arial", sans-serif;
-  color: #333;
   line-height: 1.9;
   padding: 30px;
   background-color: white;
 }
-
 
 header {
   background-color: rgb(39, 15, 94);
@@ -22,7 +18,7 @@ header {
   text-align: center;
 }
 
-header  h1 {
+header h1 {
   color: white;
 }
 
@@ -41,7 +37,7 @@ main {
 }
 
 .custom-navbar .nav-link:hover {
-  color: black;
+  color: gray;
 }
 
 .navbar-nav {
@@ -61,39 +57,28 @@ main {
   text-decoration: none;
 }
 
-.custom-navbar .navbar-brand{
-    color: white;
+.custom-navbar .navbar-brand {
+  color: white;
 }
 
-.custom-navbar .navbar-brand:hover{
-    color: black;
+.custom-navbar .navbar-brand:hover {
+  color: gray;
 }
-
 
 section {
   margin: 40px 0;
   text-align: center;
 }
-section h1{
-    background-color: rgb(18, 162, 187);
-    color: white;
-}
-
-section h2{
-    color: white;
-}
-
-section h3{
-    color: white;
+section h1 {
+  background-color: rgb(18, 162, 187);
+  color: white;
 }
 
 section p {
   max-width: 800px;
   margin: 0 auto 30px;
-  color: white;
   font-size: 1.1rem;
 }
-
 
 section:nth-of-type(2) img {
   width: 200px;
@@ -102,7 +87,6 @@ section:nth-of-type(2) img {
   margin: 20px 0;
   box-shadow: 0px 0px 10px black;
 }
-
 
 footer {
   background-color: rgb(39, 15, 94);
@@ -115,19 +99,3 @@ footer {
 footer p {
   font-size: 1rem;
 }
-
-.btn {
-    display: inline-block; 
-    padding: 10px 20px; 
-    background-color: rgb(39, 15, 94); 
-    color: white; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    transition: background-color 0.3s; 
-  }
-  
-  .btn:hover {
-    background-color: rgb(18, 162, 187);
-  }
-
-  
